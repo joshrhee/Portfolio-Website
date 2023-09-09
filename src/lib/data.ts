@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "../../public/corpcomment.png";
-import rmtdevImg from "../../public/rmtdev.png";
-import wordanalyticsImg from "../../public/wordanalytics.png";
+
+import visionariez from "../../public/visionariez.png";
+import creditCardTrackerGenerator from "../../public/credit-card-tracker-generator.png";
+import securitySmellsDetector from "../../public/security_smells_detector.png";
 
 export const links = [
     {
@@ -62,25 +63,44 @@ export const experiencesData = [
 
 export const projectsData = [
     {
-        title: "CorpComment",
+        title: "Visionariez",
         description:
-            "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-        tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-        imageUrl: corpcommentImg
+            "A pair of wearable glasses that automatically focus on the object being viewed for individuals with presbyopia as part of a capstone design project. We showed our final prototype at Georgia Tech's Design Expo!!",
+        tags: [
+            "React-Native",
+            "Python",
+            "Pytorch",
+            "OpenCV",
+            "Firebase",
+            "Rasberry Pi",
+            "Arduion"
+        ],
+        imageUrl: visionariez,
+        link: "https://docs.google.com/presentation/d/10HDx2BcXj7L2EymB5fvmm8xAMPiRaFTd0z_WnEnf2Qk/edit#slide=id.g21c7d8679ff_1_1"
     },
     {
-        title: "rmtDev",
+        title: "Credit Card Tracker Generator",
         description:
-            "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-        tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-        imageUrl: rmtdevImg
+            "A service that automatically track all my credit card usage and wrote all the information on excel file to reduce my daily credit card usage tracking job.",
+        tags: [
+            "React",
+            "TypeScript",
+            "Golang",
+            "AWS Lambda",
+            "AWS S3",
+            "AWS Firehose",
+            "Plaid"
+        ],
+        imageUrl: creditCardTrackerGenerator,
+        link: "https://github.com/joshrhee/Finance-Tracking-App"
     },
     {
-        title: "Word Analytics",
+        title: "Terraform Security Smells Detector",
         description:
-            "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-        tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-        imageUrl: wordanalyticsImg
+            "A new Jenkins pipeline to automate and secure IaC deployment process by detecting security smells in Terraform code with TFLint and custom ruleset.",
+        tags: ["Golang", "AWS EC2", "Terraform", "TFLint", "Jenkins"],
+        imageUrl: securitySmellsDetector,
+        link: "https://github.com/alanrtao/tflint-ruleset-security-smells"
     }
 ] as const;
 

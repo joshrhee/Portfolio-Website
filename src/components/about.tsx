@@ -30,7 +30,7 @@ export default function About() {
                     target="_blank"
                     className="font-medium"
                 >
-                    Samsung
+                    Amazon
                 </a>
                 ,{" "}
                 <a
@@ -38,7 +38,7 @@ export default function About() {
                     target="_blank"
                     className="font-medium"
                 >
-                    Amazon
+                    Samsung
                 </a>
                 , and{" "}
                 <a
@@ -50,7 +50,7 @@ export default function About() {
                 </a>{" "}
                 as a <span className="italic">Software Engineer Intern</span> or{" "}
                 <span className="italic">
-                    Quality Assurance Engineer Intern
+                    Software Quality Assurance Engineer Intern
                 </span>
                 . I also worked as a Part-time Software Engineer at{" "}
                 <a
@@ -61,7 +61,7 @@ export default function About() {
                     Queues
                 </a>
                 . I always seek opportunities that challenge me and enhance my
-                problem-solving skills. I had 5 years{" "}
+                problem-solving skills. I have 5 years{" "}
                 <span className="font-medium">Full-stack web development</span>{" "}
                 expereince and my personal interest lie in{" "}
                 <span className="font-medium">3D User Interface</span>,{" "}
