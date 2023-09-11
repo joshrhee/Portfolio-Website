@@ -74,7 +74,7 @@ export default function Intro() {
                 <span className="italic">
                     sites, apps, & solving challenge problems
                 </span>
-                . I have 5 years of experience in software development specially{" "}
+                . I have a lot of experience in software development specially{" "}
                 <span className="underline">
                     React (Next.js), Typescript, Python, Node.js
                 </span>
@@ -113,7 +113,8 @@ export default function Intro() {
                     className="group bg-white px-7 py-3 
                     flex items-center gap-2 rounded-full outline-none
                     focus:scale-110 hover:scale-110 active:scale-105
-                    transition cursor-pointer borderBlack"
+                    transition cursor-pointer borderBlack
+                    dark:bg-white/10"
                 >
                     Resume{" "}
                     <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
@@ -123,7 +124,8 @@ export default function Intro() {
                     className="bg-white text-gray-700 hover:text-gray-950 p-4
                     flex items-center gap-2 rounded-full
                     focus:scale-[1.15] hover:scale-[1.15] active:scale-105
-                    transition cursor-pointer borderBlack"
+                    transition cursor-pointer borderBlack
+                    dark:bg-white/10 dark:text-white/60"
                 >
                     <BsLinkedin />
                 </a>
@@ -132,7 +134,8 @@ export default function Intro() {
                     className="bg-white text-gray-700 hover:text-gray-950 text-[1.35rem] p-4
                     flex items-center gap-2 rounded-full
                     focus:scale-[1.15] hover:scale-[1.15] active:scale-105
-                    transition cursor-pointer borderBlack"
+                    transition cursor-pointer borderBlack
+                    dark:bg-white/10 dark:text-white/60"
                 >
                     <FaGithubSquare />
                 </a>

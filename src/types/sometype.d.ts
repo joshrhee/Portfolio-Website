@@ -24,3 +24,14 @@ export type ContactFormEmailProps = {
     message: string;
     senderEmail: string;
 };
+
+type Theme = "light" | "dark";
+
+type ThemeContextType = {
+    theme: Theme;
+    toggleTheme: () => void;
+};
+
+export type ThemeContextProviderProps = {
+    children: React.ReactNode;
+};
