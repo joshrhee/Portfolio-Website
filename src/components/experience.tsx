@@ -51,7 +51,10 @@ export default function Experience() {
 
                             <ul className="mt-5 list-disc ml-5 space-y-2">
                                 {item.points.map((point, index) => (
-                                    <li className="!mt-1 !font-normal text-gray-700">
+                                    <li
+                                        key={index}
+                                        className="!mt-1 !font-normal text-gray-700"
+                                    >
                                         {point}
                                     </li>
                                 ))}
