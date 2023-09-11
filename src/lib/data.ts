@@ -1,5 +1,3 @@
-import React from "react";
-
 import visionariez from "../../public/visionariez.png";
 import creditCardTrackerGenerator from "../../public/credit-card-tracker-generator.png";
 import securitySmellsDetector from "../../public/security_smells_detector.png";
