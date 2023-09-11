@@ -19,3 +19,8 @@ export type ProjectProps = (typeof projectsData)[number];
 export type useSectionInViewProps = {
     sectionName: SectionNameType;
 };
+
+export type ContactFormEmailProps = {
+    message: string;
+    senderEmail: string;
+};
