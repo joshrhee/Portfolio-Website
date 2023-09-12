@@ -108,7 +108,7 @@ export default function Intro() {
                     />
                 </Link>
                 <a
-                    href="../../public/SangJuneRhee_Resume(Fulltime).pdf"
+                    href="/SangJuneRhee_Resume(NewGrad).pdf"
                     download={true}
                     className="group bg-white px-7 py-3 
                     flex items-center gap-2 rounded-full outline-none
