@@ -46,6 +46,17 @@ export const experiencesData = [
         date: "2023"
     },
     {
+        title: "Quality Assurance Engineer Intern / Software Development Engineer Intern",
+        company: "Amazon",
+        image: amazon,
+        points: [
+            "Wrote an Amazon Alexa’s music request service’s test plan and fixed bugs for that service that is requested 92k per month in the US with Java, AWS EC2.",
+            "Re-wrote Amazon Music Voice Experience team’s automation testing scripts and improved automation tests’ passing rate up to 90% with Java, AWS EC2.",
+            "Improved my Testing Plan skillsets with thinking highly specific and infrequent test scenarios, and reviewing other QAE’s test plan helped me approach the task in diverse perspective."
+        ],
+        date: "2022"
+    },
+    {
         title: "Software Engineer (Part-time)",
         company: "Queues",
         image: queues,
@@ -55,17 +66,6 @@ export const experiencesData = [
             "Minimized the delay in the Dashboard User Interfaces which was caused by asynchronous data fetching and fixed this issue with editing the Frontend component architecture."
         ],
         date: "2022 - 2023"
-    },
-    {
-        title: "Software Quality Assurance Engineer Intern",
-        company: "Amazon",
-        image: amazon,
-        points: [
-            "Wrote an Amazon Alexa’s music request service’s test plan that is requested 92k per month in the US.",
-            "Re-wrote Amazon Music Voice Experience team’s automation testing scripts and improved automation tests’ passing rate up to 90% with Java, AWS EC2.",
-            "Improved my Testing Plan skillsets with thinking highly specific and infrequent test scenarios, and reviewing other QAE’s test plan helped me approach the task in diverse perspective."
-        ],
-        date: "2022"
     },
     {
         title: "Software Engineer Intern",
@@ -135,7 +135,9 @@ export const skillsData = [
     "Node.js",
     "Express",
     "Go",
-    "AWS Serverless",
+    "AWS Lambda",
+    "AWS EC2",
+    "AWS DynamoDB",
     "MongoDB",
     "Tailwind",
     "Framer Motion",
