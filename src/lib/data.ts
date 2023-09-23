@@ -5,6 +5,12 @@ import samsung from "../../public/samsung.png";
 import queues from "../../public/queues.png";
 import amazon from "../../public/amazon.png";
 import itential from "../../public/itential.png";
+import gradationAnimation from "../../public/gradationAnimation.png";
+import fireworksAnimation from "../../public/fireworksAnimation.png";
+import particelAnimation from "../../public/particelAnimation.png";
+import waveAnimation from "../../public/waveAnimation.png";
+import bouncingEffectAnimation from "../../public/bouncingEffectAnimation.png";
+import kineticTypography1 from "../../public/kineticTypography1.png";
 
 export const links = [
     {
@@ -26,6 +32,10 @@ export const links = [
     {
         name: "Skills",
         hash: "#skills"
+    },
+    {
+        name: "Gallery",
+        hash: "#gallery"
     },
     {
         name: "Contact",
@@ -120,6 +130,39 @@ export const projectsData = [
         tags: ["Golang", "AWS EC2", "Terraform", "TFLint", "Jenkins"],
         imageUrl: securitySmellsDetector,
         link: "https://github.com/alanrtao/tflint-ruleset-security-smells"
+    }
+] as const;
+
+export const animationGalleryData = [
+    {
+        title: "Gradation Animation",
+        image: gradationAnimation,
+        link: "https://personal-javascript-drawing-projects.vercel.app/Gradation-Animation/index.html"
+    },
+    {
+        title: "Firworks Animation",
+        image: fireworksAnimation,
+        link: "https://personal-javascript-drawing-projects.vercel.app/Fireworks-Animation/index.html"
+    },
+    {
+        title: "Particle Flow Animation",
+        image: particelAnimation,
+        link: "https://personal-javascript-drawing-projects.vercel.app/Particle-Practice/index.html"
+    },
+    {
+        title: "Wave Animation",
+        image: waveAnimation,
+        link: "https://personal-javascript-drawing-projects.vercel.app/Wave-Animation/index.html"
+    },
+    {
+        title: "Bouncing Ball Animation",
+        image: bouncingEffectAnimation,
+        link: "https://personal-javascript-drawing-projects.vercel.app/Bouncing-Effect-Animation/index.html"
+    },
+    {
+        title: "Kinetic Typography Animation",
+        image: kineticTypography1,
+        link: "https://personal-javascript-drawing-projects.vercel.app/Kinetic%20Typography1/index.html"
     }
 ] as const;
 

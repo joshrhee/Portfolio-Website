@@ -11,8 +11,8 @@ import ThemeContextProvider from "@/context/theme-context";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "Josh | Web Portoflio",
-    description: "Josh is a full-stack developer"
+    title: "Sang June (Josh) Portoflio",
+    description: "Sang June (Josh)'s web development portfolio"
 };
 
 export default function RootLayout({
