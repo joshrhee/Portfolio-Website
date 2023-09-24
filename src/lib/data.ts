@@ -11,6 +11,9 @@ import particelAnimation from "../../public/particelAnimation.png";
 import waveAnimation from "../../public/waveAnimation.png";
 import bouncingEffectAnimation from "../../public/bouncingEffectAnimation.png";
 import kineticTypography1 from "../../public/kineticTypography1.png";
+import threedCar from "../../public/threedCar.png";
+import threedCarAnimation from "../../public/threedCarAnimation.png";
+import rayTracingSimulator from "../../public/rayTracingSimulator.png";
 
 export const links = [
     {
@@ -30,12 +33,12 @@ export const links = [
         hash: "#projects"
     },
     {
-        name: "Skills",
-        hash: "#skills"
-    },
-    {
         name: "Gallery",
         hash: "#gallery"
+    },
+    {
+        name: "Skills",
+        hash: "#skills"
     },
     {
         name: "Contact",
@@ -134,6 +137,21 @@ export const projectsData = [
 ] as const;
 
 export const animationGalleryData = [
+    {
+        title: "3D Car",
+        image: threedCar,
+        link: "https://personal-javascript-drawing-projects.vercel.app/CS3451/a2a/index.html"
+    },
+    {
+        title: "3D Car Animation",
+        image: threedCarAnimation,
+        link: "https://personal-javascript-drawing-projects.vercel.app/CS3451/a2b/index.html"
+    },
+    {
+        title: "Ray Tracing Simulator",
+        image: rayTracingSimulator,
+        link: "https://personal-javascript-drawing-projects.vercel.app/CS3451/a3/index.html"
+    },
     {
         title: "Gradation Animation",
         image: gradationAnimation,

@@ -36,7 +36,7 @@ export default function Gallery() {
         <motion.section
             ref={ref}
             id="gallery"
-            className="scroll-mt-28 mb-28 sm:mb-40"
+            className="scroll-mt-28 mb-28 sm:mb-40 text-center"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
@@ -45,9 +45,14 @@ export default function Gallery() {
             }}
         >
             <SectionHeading>Web Animation Gallery</SectionHeading>
+            <p className="mb-3">
+                Implemented by Javascript, Typescript, Canvas, or Three.js.
+            </p>
             <motion.div
                 ref={carousel}
-                className="carousel"
+                className="carousel relative bg-gray-200 border border-black/5 rounded-xl
+                max-w-[90rem]
+                 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white"
                 whileTap={{ cursor: "grabbing" }}
             >
                 <motion.div
