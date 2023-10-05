@@ -5,8 +5,7 @@ import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { animationGalleryData } from "@/lib/data";
 import useSectionInView from "@/hooks/useSectionInView";
-
-import "./gallery.css";
+import Carousel from "./Carousel";
 
 export default function Gallery() {
     const { ref } = useSectionInView("Gallery");
@@ -50,8 +49,8 @@ export default function Gallery() {
             </p>
             <motion.div
                 ref={carousel}
-                className="carousel relative bg-gray-200 border border-black/5 rounded-xl
-                max-w-[90rem]
+                className="cursor-grab overflow-auto pb-4 mx-[20%] relative bg-gray-200 border border-black/5 rounded-xl
+                max-w-[42rem] sm:max-w-[60rem] max-h-[18rem] sm:pr-8
                  dark:bg-white/10 dark:hover:bg-white/20 dark:text-white"
                 whileTap={{ cursor: "grabbing" }}
             >
@@ -61,16 +60,9 @@ export default function Gallery() {
                         right: 0,
                         left: -width
                     }}
-                    className="inner-carousel"
+                    className="flex"
                 >
-                    {animationGalleryData.map((item) => (
-                        <motion.div className="item" key={item.title}>
-                            <a href={item.link} target="_blank">
-                                <img src={item.image.src} alt={item.title} />
-                            </a>
-                            <p className="animationTitle">{item.title}</p>
-                        </motion.div>
-                    ))}
+                    <Carousel />
                 </motion.div>
             </motion.div>
         </motion.section>

@@ -76,7 +76,8 @@ export default function Intro() {
                 </span>
                 . I have a lot of experience in software development specially{" "}
                 <span className="underline">
-                    React (Next.js), Typescript, Python, Node.js
+                    React (Next.js), Typescript, Python, Node.js, and Serverless
+                    (AWS Lambda)
                 </span>
                 .
             </motion.h1>
