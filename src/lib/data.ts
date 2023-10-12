@@ -5,6 +5,8 @@ import samsung from "../../public/samsung.png";
 import queues from "../../public/queues.png";
 import amazon from "../../public/amazon.png";
 import itential from "../../public/itential.png";
+import koreaArmy from "../../public/koreaArmy.png";
+import freelance from "../../public/freelance.png";
 import gradationAnimation from "../../public/gradationAnimation.png";
 import fireworksAnimation from "../../public/fireworksAnimation.png";
 import particelAnimation from "../../public/particelAnimation.png";
@@ -52,44 +54,66 @@ export const experiencesData = [
         company: "Samsung Electronics",
         image: samsung,
         points: [
-            "Implemented vRAN automation team’s CI/CD dashboard that can automatically build, deploy, and release the team organization’s Docker images to reduce more than 300 engineers’ manual job.",
-            "Add new feature that manage Docker Images’ deployments, and releases histories to help Vice President’s job.",
-            "Maintained the dashboard Frontend asynchronous data fetching gracefully with readable code and add new feature that shows deployment status in real-time with using React.js, TypeScript, React-Query, Python, Flask, WebSocket, MongoDB, Jenkins, Docker, Chakra-UI, SCSS, Figma, Perforce(P4)."
+            "Optimized workload of 300-member engineer team's operations by creating an automated CI/CD dashboard. It rapidly builds, deploys, and releases Docker images, boosting productivity.",
+            "Tailored the deployment tool to meet the Vice President’s reporting needs, aiding data-driven decisions. Supported critical customer meetings through system enhancements.",
+            "Managed Dashboard operations for real-time deployment status using React.js, TypeScript, React-Query, Python, Flask, WebSocket, MongoDB, Jenkins, Docker, Chakra-UI, SCSS, Figma, Perforce(P4), addressing technical challenges for code scalability and user experience."
         ],
-        date: "2023"
+        date: "06/2023 - 08/2023"
     },
     {
-        title: "Quality Assurance Engineer Intern / Software Development Engineer Intern",
-        company: "Amazon",
-        image: amazon,
+        title: "Freelance Frontend/Full Stack Developer (Part-time)",
+        company: "",
+        image: freelance,
         points: [
-            "Wrote an Amazon Alexa’s music request service’s test plan and fixed bugs for that service that is requested 92k per month in the US with Java, AWS EC2.",
-            "Re-wrote Amazon Music Voice Experience team’s automation testing scripts and improved automation tests’ passing rate up to 90% with Java, AWS EC2.",
-            "Improved my Testing Plan skillsets with thinking highly specific and infrequent test scenarios, and reviewing other QAE’s test plan helped me approach the task in diverse perspective."
+            "Developed responsive and visually stunning websites for 10+ customers across various industries with using Next.js, React.js, React -Server-Component, Typescript, Three.js, Tailwind CSS, Go, AWS (Lambda, S3, DynamoDB), Figma.",
+            "Improved SEO strategies for the customer’s website with using Next.js, Server-Side-Rendering, React-Server-Component.",
+            "Optimized website performance by reducing page load times and unnecessary rendering with using Next.js, Server-Side Rendering, React.js, React Server Component, Typescript, React-Query."
         ],
-        date: "2022"
+        date: "06/2021 - Present"
     },
     {
         title: "Software Engineer (Part-time)",
         company: "Queues",
         image: queues,
         points: [
-            "Scaled the Dashboard’s universities information in GA area by 50% with React.js, JavaScript, and Redux.",
-            "Edited API router to pull more important data so can reduce 50% of API request with Python, Flask, AWS EC2, MongoDB.",
-            "Minimized the delay in the Dashboard User Interfaces which was caused by asynchronous data fetching and fixed this issue with editing the Frontend component architecture."
+            "Amplified the scalability of the Dashboard’s university information by an impressive 50%, utilizing React.js, JavaScript, and Redux.",
+            "Enhanced the efficiency of API requests by 50% through strategic edits to the API router, resulting in a more streamlined data retrieval process with Python, Flask, AWS EC2, and MongoDB.",
+            "Resolved latency issues in the Dashboard’s User Interfaces stemming from asynchronous data fetching. This was accomplished through a meticulous overhaul of the Frontend component architecture"
         ],
-        date: "2022 - 2023"
+        date: "08/2022 - 03/2023"
+    },
+    {
+        title: "Quality Assurance Engineer Intern / Software Development Engineer Intern",
+        company: "Amazon",
+        image: amazon,
+        points: [
+            "Devised a comprehensive test plan for Amazon Alexa’s music request service that is requested 92k per month, significantly reducing monthly service-related bugs.",
+            "Rewrote the team’s automation testing scripts, leading a remarkable 90% increase in automation test pass rates. Implemented with Java, AWS EC2.",
+            " Elevated my proficiency in Testing Plan development, specializing in highly specific and infrequent test scenarios. Actively participated in mentor’s review processes, gaining a diverse perspective on testing strategies."
+        ],
+        date: "05/2022 - 08/2022"
     },
     {
         title: "Software Engineer Intern",
         company: "Itential",
         image: itential,
         points: [
-            "Reduced 15% of employee’s manual work by creating an internal tool for the Itential Automation Platform to retrieve information from the platform and automatically updating the Confluence page with React.js, JavaScript, Node.js, and MongoDB.",
-            "Created a script that reduced 30% of employee’s manual work which converts a specific type of network device native configuration to other types with Python.",
+            "Pioneered the development of an internal tool for the main platform, reducting in employee manual efforts. This tool efficiently retrieved information from the platform, automating updates to the Confluence pages. Skillfully executed with React React.js, JavaScript, Node.js, and MongoDB.",
+            "Implemented Python script that streamlined a specific type of network device’s native configuration conversion, saved employee manual labor",
             "Minimized the latencies for the internal tool, addressed by modifying the database schema and adjusting the Frontend architecture."
         ],
-        date: "2022"
+        date: "01/2022 - 05/2022"
+    },
+    {
+        title: "Squad Leader of Combat Medic",
+        company: "South Korea Army",
+        image: koreaArmy,
+        points: [
+            "Led 7 combat medics, fostering a culture of excellence through one-on-one mentoring and collaborative teamwork to provide Top-tier services to customers.",
+            "Supervised and directed medical procedures alongside doctors in both training and real situations.",
+            "Conducted comprehensive team debriefs to dissect daily challenges, paving the way for continuous improvement and future successes."
+        ],
+        date: "12/2015 - 09/2017"
     }
 ] as const;
 
