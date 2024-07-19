@@ -5,12 +5,12 @@ import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { animationGalleryData } from "@/lib/data";
 import useSectionInView from "@/hooks/useSectionInView";
-import Carousel from "./Carousel";
+import CarouselComponent from "./CarouselComponent";
 
 export default function Gallery() {
     const { ref } = useSectionInView("Gallery");
 
-    const [width, setWidth] = useState(0);
+    // const [width, setWidth] = useState(0);
     const carousel = useRef<HTMLDivElement>(null);
 
     const fadeInAnimationVariants = {
@@ -27,9 +27,9 @@ export default function Gallery() {
         })
     };
 
-    useEffect(() => {
-        setWidth(carousel.current!.scrollWidth - carousel.current!.offsetWidth);
-    }, []);
+    // useEffect(() => {
+    //     setWidth(carousel.current!.scrollWidth - carousel.current!.offsetWidth);
+    // }, []);
 
     return (
         <motion.section
@@ -47,11 +47,9 @@ export default function Gallery() {
             <p className="mb-3">
                 Implemented by Javascript, Typescript, Canvas, or Three.js.
             </p>
-            <motion.div
+            {/* <motion.div
                 ref={carousel}
-                className="cursor-grab overflow-auto pb-4 mx-[20%] relative bg-gray-200 border border-black/5 rounded-xl
-                max-w-[42rem] sm:max-w-[60rem] max-h-[18rem] sm:pr-8
-                 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white"
+                className="relative bg-gray-200 dark:hover:bg-white/20 dark:bg-white/10 mx-[20%] sm:pr-8 pb-4 border border-black/5 rounded-xl max-w-[42rem] sm:max-w-[60rem] max-h-[18rem] dark:text-white cursor-grab overflow-auto"
                 whileTap={{ cursor: "grabbing" }}
             >
                 <motion.div
@@ -62,9 +60,10 @@ export default function Gallery() {
                     }}
                     className="flex"
                 >
-                    <Carousel />
+                    <CarouselComponent />
                 </motion.div>
-            </motion.div>
+            </motion.div> */}
+            <CarouselComponent />
         </motion.section>
     );
 }

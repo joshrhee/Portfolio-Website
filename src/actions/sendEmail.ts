@@ -1,7 +1,7 @@
 "use server";
 
 import { Resend } from "resend";
-import { validateString, getErrorMessage } from "@/lib/utils";
+import { validateString, getErrorMessage } from "@/lib/utilityFunctions";
 import ContactFormEmail from "@/email/contact-form-email";
 import React from "react";
 
